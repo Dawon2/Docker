@@ -7,7 +7,7 @@
 
 1. 저장소 설정
 ```
-    # yum -y install yum-utils
+    # yum -y install yum-utils device-mapper-persistent-data lvm2
 
     # yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
 ```
